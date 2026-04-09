@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, Trash2, Save, Clock, Calendar as CalendarIcon } from 'lucide-react';
+import { Plus, Trash2, Save, Clock, Calendar as CalendarIcon, Loader2 } from 'lucide-react';
 import { updateAvailability } from '@/app/actions/availability';
 
 const DAYS = [
